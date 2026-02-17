@@ -31,13 +31,18 @@ I've created a main page contains a simple list of links to each individual proj
 
 ## Demo
 
+https://js-dom-mini-projects.netlify.app/
+
 
 ## Purpose
 This repository serves as:
 
 _ Practice ground for JavaScript DOM concepts
+
 _ Portfolio showcase for potential employers
+
 _ Reference for future projects
+
 _ Progress tracker in my learning journey
 
 
