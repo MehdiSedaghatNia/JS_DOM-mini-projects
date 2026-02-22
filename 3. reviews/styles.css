@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #406459;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-inline: 1rem;
+  max-width: 40rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  color: #968d0c;
+  font-size: 2.5rem;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: #eee;
+  padding: 2rem;
+  box-shadow: 2px 5px 15px #000;
+  border-radius: 0.2rem;
+  text-align: center;
+
+  .author {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  .job {
+    color: #1090a1;
+  }
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+
+  img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.two-btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #968d0c;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.random-btn {
+  background-color: #968d0c;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.7rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
